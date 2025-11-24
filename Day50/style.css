@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   
+   
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+main{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgb());
+    padding: 20px;
+}
+section{
+    height: 100%;
+    width: 350px;
+    background-color: black;
+    border-radius: 10px;
+    margin: auto;
+
+
+}
+.all-reels{
+    height: 100%;
+    width: 100%;
+
+}
+.reel{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: aqua;
+}
+.reel img{
+
+}
+.bottom{
+    display: flex;
+}
+
+
+
