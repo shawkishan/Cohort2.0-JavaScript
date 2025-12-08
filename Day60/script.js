@@ -26,3 +26,31 @@ getUser("Harsh", function(data){
         console.log(data.username,allpots)
     })
 })
+
+function loginUser(username,cb){
+    console.log("Logging in User....")
+    setTimeout(()=>{
+        cb({id:121,username:"Yes"})
+    },1000)
+}
+function fetchPermissions(id,cb){
+    console.log("Fetching Data....")
+    setTimeout(()=>{
+        cb(["weww","23f"])
+    },2000)
+}
+
+function loadDasbord(permissions,cb){
+    console.log("Load Dasbord....")
+    setTimeout(()=>{
+        cb()
+    },2000)
+}
+loginUser("Yes",function(userdata){
+    fetchPermissions(userdata.id,function(permissions){
+        loadDasbord(permissions,function(){
+            console.log("Permission Loded")
+        })
+    })
+})
+
