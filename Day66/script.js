@@ -44,10 +44,13 @@ console.log(user1)
 //import export topic
 import kink from './app.js'
 import ski from './text.js'
-import {user} from './text.js' //name import
+import {user,ms,ro} from './text.js' //name import
 
 console.log(kink)
 console.log(ski)
 console.log(user)
+console.log(ms)
+console.log(ro)
+console.log(ms.user1)
 
 
